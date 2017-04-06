@@ -1,0 +1,35 @@
+* {
+   background: 	-webkit-linear-gradient(#79afe3, #2069c9);
+   Color: #000;
+   Font-family: Architects Daughter, Arial, sans-serif;
+   border: 1px solid #000;
+
+  
+}
+.logo img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+.banner img {
+	width: 300px;
+	height: 100px;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.navi {
+	text-align: Center;
+	width: 250px;
+	height: 120px;
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+}
