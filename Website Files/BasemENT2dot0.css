@@ -1,8 +1,10 @@
 * {
-   background: 	-webkit-linear-gradient(#79afe3, #2069c9);
+   background: 	-webkit-linear-gradient(#fff, #fff);
    Color: #000;
    Font-family: Architects Daughter, Arial, sans-serif;
-   border: 1px solid #000;
+   border: 1px solid #f0f;
+   box-sizing: border-box;
+   width: 1360px;
 
   
 }
@@ -13,18 +15,29 @@
 	margin: 10px auto;
 	padding: 10px;
 	position: fixed;
-	z-index: 1000;
+	clear: both;
+}
+
+.logo1 img{
+	width: 600px;
+	height: 100px;
 }
 
 .navi {
 	text-align: Center;
-	width: 250px;
-	height: 120px;
-	display: block;
+	width: 1360px;
+	height: 500px;
 	margin: 10px auto;
 	padding: 10px;
 }
 
-footer {
-	text-align: center;
+.navi h2 {
+	text-align: Center;
+	width: 200px;
+	
 }
+
+.list {
+	text-align: left;
+}
+
