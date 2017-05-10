@@ -4,7 +4,7 @@
    Font-family: Architects Daughter, Arial, sans-serif;
    border: 1px solid #f0f;
    box-sizing: border-box;
-   width: 1360px;
+  
 
   
 }
@@ -25,8 +25,8 @@
 
 .navi {
 	text-align: Center;
-	width: 1360px;
-	height: 500px;
+	width: 700;
+	height: 350;
 	margin: 10px auto;
 	padding: 10px;
 }
@@ -39,5 +39,30 @@
 
 .list {
 	text-align: left;
+	
 }
 
+ul	{
+	padding: 0;
+	margin: 0;
+}
+
+li	{
+	display: inline;
+	
+}
+
+ul ul{
+	display: none;
+	position: absolute;
+}
+
+li:hover ul{
+	display: block;
+}
+
+.headers	{
+	width: 150px;
+	height: 150px;
+	
+}
