@@ -13,7 +13,9 @@
 	
 }
 
-
+#thumbnail {
+	position:fixed;
+}
 .navi {
 	text-align: left;
 	width: 200px;
