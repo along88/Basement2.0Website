@@ -1,40 +1,32 @@
 * {
-   background: 	-webkit-linear-gradient(#fff, #fff);
+ 
    Color: #000;
    Font-family: Architects Daughter, Arial, sans-serif;
    border: 1px solid #f0f;
    box-sizing: border-box;
   
-
-  
-}
-.logo img {
-	width: 100px;
-	height: 100px;
-	display: block;
-	margin: 10px auto;
-	padding: 10px;
-	position: fixed;
-	clear: both;
 }
 
-.logo1 img{
-	width: 600px;
-	height: 100px;
+#container {
+	background-color: red;
+	position: static;
+	
 }
+
 
 .navi {
-	text-align: Center;
-	width: 700;
-	height: 350;
-	margin: 10px auto;
+	text-align: left;
+	width: 200px;
 	padding: 10px;
+	background-color: green;
+	position: relative;
+	display: inline;
 }
 
 .navi h2 {
 	text-align: Center;
 	width: 200px;
-	
+	background-color: orange;
 }
 
 .list {
@@ -45,6 +37,7 @@
 ul	{
 	padding: 0;
 	margin: 0;
+	display: inline;
 }
 
 li	{
@@ -55,14 +48,12 @@ li	{
 ul ul{
 	display: none;
 	position: absolute;
+	
 }
 
 li:hover ul{
 	display: block;
+	background-color: white;
 }
 
-.headers	{
-	width: 150px;
-	height: 150px;
 	
-}
