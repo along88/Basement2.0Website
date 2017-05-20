@@ -7,57 +7,98 @@
   
 }
 
+
+body 	{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+}
 #container {
 	background-color: red;
 	position: static;
+	margin: 0 auto;
+	text-align: left;
 	
 }
 
-#thumbnail {
-	position:fixed;
-}
-.navi {
-	text-align: left;
-	width: 200px;
-	padding: 10px;
+
+
+#navi {
+	padding: 0;
+	margin: 0;
 	background-color: green;
 	position: relative;
 	display: inline;
 }
 
-.navi h2 {
+#navi h2 {
 	text-align: Center;
-	width: 200px;
+	width: 100;
+	padding: 0;
+	margin: 0;
 	background-color: orange;
 }
 
-.list {
-	text-align: left;
+
+#navi ul	{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+#navi ul li	{
+	display: inline-block;
 	
 }
 
-ul	{
-	padding: 0;
-	margin: 0;
-	display: inline;
+#navi ul li:hover	{
+		background-color: grey;
+		text-decoration: none;
+		
+		
+}
+
+#navi ul li a, visited	{
+	color: blue;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#navi ul li a:hover	{
+	
+}
+
+#navi ul li:hover ul {
+	display: block;
+}
+
+#navi ul ul {
+	display:	none;
+	position: absolute;
+	background-color: red;
+	border: 5px solid;
+}
+
+#navi ul ul li {
+	display: block;
+}
+
+#navi ul ul li a, visited {
+	color: orange;
+}
+
+#navi ul ul li a:hover {
+	color: yellow;
 }
 
 li	{
-	display: inline;
-	
+	padding: 0;
+	margin: 0;
 }
 
-ul ul{
-	display: none;
-	position: absolute;
-	
+ul{
+	padding: 0;
+	margin: 0;
 }
-
-li:hover ul{
-	display: inline;
-	background-color: white;
-	width: 200px;
-	
-}
-
-	
