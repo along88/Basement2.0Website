@@ -12,7 +12,8 @@ body 	{
 	padding: 0;
 	margin: 0;
 	overflow-y: scroll;
-	background: #000 url(studio.jpg) no-repeat 50% 50% fixed;
+	background: #000 url(studio1.jpg) no-repeat 50% 50% fixed;
+	background-size: contain;
 	
 	
 	
@@ -145,8 +146,13 @@ img	{
 }
 
 
-
-
+.content p 	{
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 500px;
+	width: 500px;
+	overflow-y: scroll;
+	display: block;
+}
 
 
 
