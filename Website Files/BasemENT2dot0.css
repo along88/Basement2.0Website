@@ -1,6 +1,6 @@
 * {
  
-   Color: #000;
+   Color: #fff;
    Font-family: Architects Daughter, Arial, sans-serif;
    border: 1px solid #f0f;
    box-sizing: border-box;
@@ -12,9 +12,23 @@ body 	{
 	padding: 0;
 	margin: 0;
 	overflow-y: scroll;
+	background: #000 url(studio.jpg) no-repeat 50% 50% fixed;
+	
+	
+	
+}
+
+img	{
+	height: 150px;
+	width: 500px;
+}
+
+#logo #thumbnail	{
+	height: 150px;
+	width: 150px;
 }
 #container {
-	background-color: red;
+	background-color: black;
 	position: static;
 	margin: 0 auto;
 	text-align: left;
@@ -26,17 +40,9 @@ body 	{
 #navi {
 	padding: 0;
 	margin: 0;
-	background-color: green;
+	background-color: black;
 	position: relative;
 	display: inline;
-}
-
-#navi h2 {
-	text-align: Center;
-	width: 100;
-	padding: 0;
-	margin: 0;
-	background-color: orange;
 }
 
 
@@ -53,14 +59,13 @@ body 	{
 }
 
 #navi ul li:hover	{
-		background-color: grey;
+		background-color: red;
 		text-decoration: none;
-		
-		
+		color: white;
 }
 
 #navi ul li a, visited	{
-	color: blue;
+	color: white;
 	display: block;
 	padding: 15px;
 	text-decoration: none;
@@ -74,11 +79,14 @@ body 	{
 	display: block;
 }
 
+
+
 #navi ul ul {
 	display:	none;
 	position: absolute;
-	background-color: red;
+	background-color: black;
 	border: 5px solid;
+	
 }
 
 #navi ul ul li {
@@ -86,19 +94,68 @@ body 	{
 }
 
 #navi ul ul li a, visited {
-	color: orange;
+	color: white;
+}
+
+#navi ul ul li:hover ul	{
+	display: block;
 }
 
 #navi ul ul li a:hover {
-	color: yellow;
+	color: white;
+	background-color: red;
 }
+
+#navi ul ul li:hover {
+	background-color:red;
+	text-decoration: none;
+}
+
+#navi ul ul li a:hover ul {
+	
+}
+
+
+
+
+
+#navi ul ul ul	{
+	display:	none;
+	position: relative;
+	background-color: black;
+	border: 5px solid;
+
+	
+}
+
+#navi ul ul ul li {
+	display: block;
+}
+
+#navi ul ul ul li, a visited {
+	color: white;
+}
+
+
+#navi ul ul ul li a:hover {
+	color: white;
+}
+#navi ul ul ul li:hover {
+	
+}
+
+
+
+
+
+
 
 li	{
 	padding: 0;
 	margin: 0;
 }
 
-ul{
+ul	{
 	padding: 0;
 	margin: 0;
 }
