@@ -2,7 +2,7 @@
  
    Color: #fff;
    Font-family: Architects Daughter, Arial, sans-serif;
-   border: 1px solid #f0f;
+   border: 1.3px solid #fff;
    box-sizing: border-box;
   
 }
@@ -19,14 +19,23 @@ body 	{
 	
 }
 
-img	{
+#logo img	{
 	height: 150px;
 	width: 500px;
-}
+	border-style: none;
+	padding-top: 20px;
 
+}
+#logo {
+	border-style: none;
+	
+	
+}
 #logo #thumbnail	{
 	height: 150px;
 	width: 150px;
+	border-style: none;
+	padding-bottom: 20px;
 }
 #container {
 	background-color: black;
@@ -43,7 +52,7 @@ img	{
 	margin: 0;
 	background-color: black;
 	position: relative;
-	display: inline;
+	
 }
 
 
@@ -65,6 +74,10 @@ img	{
 		color: white;
 }
 
+
+#navi ul li:hover ul {
+	display: block;
+}
 #navi ul li a, visited	{
 	color: white;
 	display: block;
@@ -72,13 +85,7 @@ img	{
 	text-decoration: none;
 }
 
-#navi ul li a:hover	{
-	
-}
 
-#navi ul li:hover ul {
-	display: block;
-}
 
 
 
@@ -87,15 +94,19 @@ img	{
 	position: absolute;
 	background-color: black;
 	border: 5px solid;
-	
+
 }
 
 #navi ul ul li {
 	display: block;
+	
 }
 
 #navi ul ul li a, visited {
 	color: white;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
 }
 
 #navi ul ul li:hover ul	{
@@ -105,32 +116,37 @@ img	{
 #navi ul ul li a:hover {
 	color: white;
 	background-color: red;
+	
+	
 }
 
 #navi ul ul li:hover {
 	background-color:red;
 	text-decoration: none;
-}
-
-#navi ul ul li a:hover ul {
+	
 	
 }
 
-
+#navi ul ul li a:hover ul {
+	display: block;
+}
 
 
 
 #navi ul ul ul	{
-	display:	none;
-	position: relative;
+	display: none;
 	background-color: black;
 	border: 5px solid;
+	left: 100%;
+    top: 0;
+}
 
-	
+#navi li:hover > ul {
+    display: block;
 }
 
 #navi ul ul ul li {
-	display: block;
+	display: none;
 }
 
 #navi ul ul ul li, a visited {
@@ -138,20 +154,14 @@ img	{
 }
 
 
-#navi ul ul ul li a:hover {
-	color: white;
-}
-#navi ul ul ul li:hover {
-	
-}
-
 
 .content p 	{
 	background-color: rgba(0, 0, 0, 0.7);
 	height: 500px;
-	width: 500px;
+	width: 625px;
 	overflow-y: scroll;
 	display: block;
+	padding-top: 10px;
 }
 
 
@@ -159,6 +169,10 @@ img	{
 li	{
 	padding: 0;
 	margin: 0;
+	display: inline;
+	position: relative;
+	left: 0;
+	top: 100%;
 }
 
 ul	{
