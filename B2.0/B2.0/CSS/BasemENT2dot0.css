@@ -1,0 +1,181 @@
+* {
+ 
+   Color: #fff;
+   Font-family: Architects Daughter, Arial, sans-serif;
+   border: 1.3px solid #fff;
+   box-sizing: border-box;
+  
+}
+
+
+body 	{
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+	background: #000 url(studio1.jpg) no-repeat 50% 50% fixed;
+	background-size: contain;
+	
+	
+	
+}
+
+#logo img	{
+	height: 150px;
+	width: 500px;
+	border-style: none;
+	padding-top: 20px;
+
+}
+#logo {
+	border-style: none;
+	
+	
+}
+#logo #thumbnail	{
+	height: 150px;
+	width: 150px;
+	border-style: none;
+	padding-bottom: 20px;
+}
+#container {
+	background-color: black;
+	position: static;
+	margin: auto;
+	text-align: left;
+	
+}
+
+
+
+#navi {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	position: sticky;
+	
+}
+
+
+#navi ul	{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	position: relative;
+}
+
+#navi ul li	{
+	display: inline-block;
+	
+}
+
+#navi ul li:hover	{
+		background-color: red;
+		text-decoration: none;
+		color: white;
+}
+
+
+#navi ul li:hover ul {
+	display: block;
+}
+#navi ul li a, visited	{
+	color: white;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+
+
+
+
+#navi ul ul {
+	display:	none;
+	position: absolute;
+	background-color: black;
+	border: 5px solid;
+
+}
+
+#navi ul ul li {
+	display: block;
+	
+}
+
+#navi ul ul li a, visited {
+	color: white;
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+
+#navi ul ul li:hover ul	{
+	display: block;
+}
+
+#navi ul ul li a:hover {
+	color: white;
+	background-color: red;
+	
+	
+}
+
+#navi ul ul li:hover {
+	background-color:red;
+	text-decoration: none;
+	
+	
+}
+
+#navi ul ul li a:hover ul {
+	display: block;
+}
+
+
+
+#navi ul ul ul	{
+	display: none;
+	background-color: black;
+	border: 5px solid;
+	left: 100%;
+    top: 0;
+}
+
+#navi li:hover > ul {
+    display: block;
+}
+
+#navi ul ul ul li {
+	display: none;
+}
+
+#navi ul ul ul li, a visited {
+	color: white;
+}
+
+
+.content p {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 500px;
+    width: 625px;
+    width: inherit;
+    overflow-y: scroll;
+    /*display: block;*/
+    padding-top: 10px;
+}
+
+
+
+li	{
+	padding: 0;
+	margin: 0;
+	display: inline;
+	position: relative;
+	left: 0;
+	top: 100%;
+}
+
+ul	{
+	padding: 0;
+	margin: 0;
+}
