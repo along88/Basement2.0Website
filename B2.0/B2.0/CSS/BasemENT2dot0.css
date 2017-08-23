@@ -8,15 +8,12 @@
 }
 
 
-body 	{
-	padding: 0;
-	margin: 0;
-	overflow-y: scroll;
-	background: #000 url(studio1.jpg) no-repeat 50% 50% fixed;
-	background-size: contain;
-	
-	
-	
+body {
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+    background: #000 url('../Images/B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;
+    background-size: contain;
 }
 
 #logo img	{
@@ -153,7 +150,9 @@ body 	{
 	color: white;
 }
 
-
+.content {
+    background: url('./Images/B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;
+}
 .content p {
     background-color: rgba(0, 0, 0, 0.7);
     height: 500px;

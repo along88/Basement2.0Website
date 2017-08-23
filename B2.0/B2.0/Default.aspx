@@ -4,14 +4,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=ArchitectsDaughter"/>
-	    <link href="CSS/BasemENT2dot0.css" type="text/css" rel="stylesheet"/>
+	    <link href="./CSS/BasemENT2dot0.css" type="text/css" rel="stylesheet"/>
 	    <title> BasemENT 2dot0</title>
     </head>
     <body>
         <div id="container">
         <form id="form1" runat="server">
             <div id="logo">
-		    <center><img src=".\fulllogo.png"/></center>
+		    <center><img src="\Images\B20NeuHiraleonNewFont.png"/></center>
 		    </div>
             <div id="navi">	
                <center>
