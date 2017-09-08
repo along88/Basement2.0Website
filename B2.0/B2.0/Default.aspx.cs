@@ -24,10 +24,17 @@ namespace B2._0
 
         }
 
+        protected void homeBtn_Click(object sender, EventArgs e)
+        {
+            string feed = string.Format(@"<a href=""https://twitter.com/basement2dot0"" class=""twitter-follow-button"" data-size=""large"" data-show-count=""false"">Follow @Basement2dot0</a><script async src=""//platform.twitter.com/widgets.js"" charset=""utf-8""></script>");
+                feed += string.Format(@"<a class=""twitter-timeline"" href=""https://twitter.com/basement2dot0"">Basement2dot0 Feed</a> <script async src=""//platform.twitter.com/widgets.js"" charset=""utf-8""></script>");
+            contentLabel.Text = string.Format(feed);
+        }
+
         protected void aboutBtn_Click(object sender, EventArgs e)
         {
             string aboutUs = "<b>Vision</b> </br>" +
-                "Our Vision is to have a vision! </br> " +
+                "! </br> " +
                 "<b>History</b> </br>" +
                 "We started this Company back in(such and such Date) </br>" +
                 "<b>Philsophy</b> </br>" +
@@ -38,7 +45,7 @@ namespace B2._0
         protected void projectsBtn_Click(object sender, EventArgs e)
         {
             string RingOut = "<b>Ring Out!</b> </br>" +
-                "A 3D Arena Fighting Game where the goal is to knock your opponent of the ring by ANY means necessary!";
+                "A colorful and sometimes off-beat 3D Arena Fighting Game where the goal is to knock your opponent of the ring by ANY means necessary!";
             contentLabel.Text = string.Format(RingOut);
         }
 
@@ -73,6 +80,21 @@ namespace B2._0
   
 					*/
             contentLabel.Text = string.Format(contact);
+        }
+
+        protected void donateBtn_Click(object sender, EventArgs e)
+        {
+            string donate = "Interested in supporting our development efforts? Here at basement2dot0 we aren't comfortable"+
+                "just taking your money, so we've thought long and hard about how to give back to those who supported us early on"+
+                "So we started a Patreon page! Patreon is a great platform for supports like you to support content creators like us"+
+                "to continue to create more content for you! By being a patron of Basement2dot0 you will be rewarded with cool behind the"+
+                "scenes access to our development where your voice and opinions can directly reach the team during phases of development and"+
+                "help drive the direction of the games we make for you! You're also promised a copy of the game upon release at in additional to a"+
+                "butt load of other cool rewards! Head over to our Patreon page <a href='https://www.patreon.com/basement2dot0'>here</a> to become a member!" +
+                "<br> If you don't care about the rewards or just simply want to donate to our cause without becoming a member we also accept"+
+                "Paypal donations! Note: For all Paypal donations, basement2dot0 will be providing a thank you gift to all paypal supports"+
+                "when the company launches it's KickStarter Campaign in the near future.</br>";
+            contentLabel.Text = string.Format(donate);
         }
     }
 }

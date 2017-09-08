@@ -12,7 +12,7 @@ body {
     padding: 0;
     margin: 0;
     overflow-y: scroll;
-    background: #000 url('../Images/B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;
+   /* background: #000 url('../Images/B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;*/
     background-size: contain;
 }
 
@@ -151,17 +151,21 @@ body {
 }
 
 .content {
-    background: url('./Images/B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;
+    /*  background-image: url('.\Images\B20NeuHiraleonSmallNewFont.png') no-repeat 50% 50% fixed;*/
+     /* background: url('.\Images\B20NeuHiraleonSmallNewFont.png');*/
+    background-size: contain;
+    font-size: 30px;
 }
-.content p {
-    background-color: rgba(0, 0, 0, 0.7);
-    height: 500px;
-    width: 625px;
-    width: inherit;
-    overflow-y: scroll;
-    /*display: block;*/
-    padding-top: 10px;
-}
+    .content p {
+        /* background-color: rgba(0, 0, 0, 0.7);*/
+        height: 500px;
+        width: 625px;
+        width: inherit;
+        overflow-y: scroll;
+        /*display: block;*/
+        padding-top: 10px;
+
+    }
 
 
 
