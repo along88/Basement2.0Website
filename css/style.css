@@ -1,0 +1,69 @@
+div.row {
+    border: 7px solid black;
+	  position: relative;
+	  background-color: yellow;display: flex;
+	
+
+   
+}
+.col-md-4 {
+  border: 7px solid black;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+  height: 200px;
+  
+  
+}
+.carousel-inner{
+  width:100%;
+  position: relative;
+  left: -15px;
+ 
+  
+}
+
+.wrapper {
+  
+  width:100%;
+}
+
+.carousel-control-next-icon {
+    background-image : url("")
+    color: black;
+}
+
+
+#About:hover{
+	
+	padding-right: 1475px;
+}
+
+
+#About:hover ~#Contact{
+	display: none;
+	visibility: hidden;
+	}
+
+#About:hover ~#WWD{
+	display: none;
+	visibility: hidden;
+	}
+	
+#Contact:hover{
+	
+	padding-right: 10px;
+
+}
+
+
+#Contact:hover ~#About{
+	display: none;
+	visibility: hidden;
+	}
+
+#Contact:hover ~#WWD{
+	display: none;
+	visibility: hidden;
+	
